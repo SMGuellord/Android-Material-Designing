@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="standalone">Standalone Toolbar</string>
+    <string name="toolbarasactionbar">Toolbar as ActionBar</string>
+    <string name="contextualmenu">Contextual Menu</string>
+    <string name="toolbarexample">Toolbar Example</string>
+</resources>

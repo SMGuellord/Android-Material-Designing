@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppMaterialTheme" parent="SuperMaterialTheme">
+        <!--Customise your theme here-->
+
+    </style>
+
+
+    <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Parent  them for all Pre-lollipop and lollipop and above versions. i.e. For all devices. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--ripple effect color-->
+        <item name="colorControlHighlight">#edea0d</item>
+        <!--default widgets color-->
+        <item name="colorButtonNormal">#f955f3</item>
+        <!--Color of checked checkbox/radiobutton-->
+        <item name="colorControlActivated">#0cf427</item>
+    </style>
+
+    <!-- Toolbar style-->
+    <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/white</item> <!-- Text color of Toolbar Title-->
+        <item name="android:textColorSecondary">@android:color/white</item> <!--Color of Overflow Meny (3 dots icon
+                                                                               and color of Navigation Drawer Icon-->
+    </style>
+
+    <style name="MyPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+
+        <item name="android:background">@color/overflowMenuBg</item>
+        <item name="android:textColorPrimary">@color/grey_800</item>
+    </style>
+</resources>
